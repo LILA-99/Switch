@@ -1,17 +1,14 @@
 ### Switch!
 *Helping Simplify iOS Dual boots.
-^ lies.
 
------------------------
 ### Developers:
 #### Hexane
 #### Peacemaker
+#### P01sonN1nja
 
-
------------------------
 ## Roadmap
-* Finish Installation Code
-* Bundle with some command line utilitys
-* Traverse between partitions?
-* Release onto cydia repo for public beta usage
-* Profit.
+* Finish Installation Code [Not Done]
+* Bundle with some command line utilitys [CBF]
+* Traverse between partitions? [EASY]
+* Release onto cydia repo for public beta usage [TIME]
+
