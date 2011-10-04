@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035F540F143AF24100ED7754 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 035F540E143AF24100ED7754 /* icon.png */; };
+		03C5A38113D8404900C572CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C5A38013D8404900C572CE /* UIKit.framework */; };
+		03C5A38313D8404900C572CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C5A38213D8404900C572CE /* Foundation.framework */; };
+		03C5A38513D8404900C572CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C5A38413D8404900C572CE /* CoreGraphics.framework */; };
+		03C5A38B13D8404900C572CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A38913D8404900C572CE /* InfoPlist.strings */; };
+		03C5A38D13D8404900C572CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5A38C13D8404900C572CE /* main.m */; };
+		03C5A39113D8404900C572CE /* SwitchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5A39013D8404900C572CE /* SwitchAppDelegate.m */; };
+		03C5A39313D8404900C572CE /* FirstViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A39213D8404900C572CE /* FirstViewController.h */; };
+		03C5A39513D8404900C572CE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5A39413D8404900C572CE /* FirstViewController.m */; };
+		03C5A39B13D8404900C572CE /* SecondViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A39A13D8404900C572CE /* SecondViewController.h */; };
+		03C5A39D13D8404900C572CE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5A39C13D8404900C572CE /* SecondViewController.m */; };
+		03C5A3A413D8404900C572CE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3A213D8404900C572CE /* FirstViewController.xib */; };
+		03C5A3A713D8404900C572CE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3A513D8404900C572CE /* SecondViewController.xib */; };
+		03C5A3B013D8406300C572CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3AF13D8406300C572CE /* Default@2x.png */; };
+		03C5A3B213D8406800C572CE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3B113D8406800C572CE /* Default.png */; };
+		03C5A3B913D8420F00C572CE /* Install.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3B713D8420F00C572CE /* Install.png */; };
+		03C5A3BA13D8420F00C572CE /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C5A3B813D8420F00C572CE /* Switch.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035F540E143AF24100ED7754 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		03C5A37C13D8404900C572CE /* Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C5A38013D8404900C572CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03C5A38213D8404900C572CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03C5A38413D8404900C572CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03C5A38813D8404900C572CE /* Switch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Switch-Info.plist"; sourceTree = "<group>"; };
+		03C5A38A13D8404900C572CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03C5A38C13D8404900C572CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C5A38E13D8404900C572CE /* Switch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Switch-Prefix.pch"; sourceTree = "<group>"; };
+		03C5A38F13D8404900C572CE /* SwitchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchAppDelegate.h; sourceTree = "<group>"; };
+		03C5A39013D8404900C572CE /* SwitchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchAppDelegate.m; sourceTree = "<group>"; };
+		03C5A39213D8404900C572CE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		03C5A39413D8404900C572CE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		03C5A39A13D8404900C572CE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		03C5A39C13D8404900C572CE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		03C5A3A313D8404900C572CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		03C5A3A613D8404900C572CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		03C5A3AF13D8406300C572CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03C5A3B113D8406800C572CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03C5A3B713D8420F00C572CE /* Install.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Install.png; sourceTree = "<group>"; };
+		03C5A3B813D8420F00C572CE /* Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switch.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C5A37913D8404900C572CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C5A38113D8404900C572CE /* UIKit.framework in Frameworks */,
+				03C5A38313D8404900C572CE /* Foundation.framework in Frameworks */,
+				03C5A38513D8404900C572CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5A37113D8404900C572CE = {
+			isa = PBXGroup;
+			children = (
+				035F540E143AF24100ED7754 /* icon.png */,
+				03C5A3B113D8406800C572CE /* Default.png */,
+				03C5A3AF13D8406300C572CE /* Default@2x.png */,
+				03C5A38613D8404900C572CE /* Switch */,
+				03C5A37F13D8404900C572CE /* Frameworks */,
+				03C5A37D13D8404900C572CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C5A37D13D8404900C572CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C5A37C13D8404900C572CE /* Switch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C5A37F13D8404900C572CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C5A38013D8404900C572CE /* UIKit.framework */,
+				03C5A38213D8404900C572CE /* Foundation.framework */,
+				03C5A38413D8404900C572CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03C5A38613D8404900C572CE /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				03C5A38F13D8404900C572CE /* SwitchAppDelegate.h */,
+				03C5A39013D8404900C572CE /* SwitchAppDelegate.m */,
+				03C5A39213D8404900C572CE /* FirstViewController.h */,
+				03C5A39413D8404900C572CE /* FirstViewController.m */,
+				03C5A3B713D8420F00C572CE /* Install.png */,
+				03C5A3B813D8420F00C572CE /* Switch.png */,
+				03C5A39A13D8404900C572CE /* SecondViewController.h */,
+				03C5A39C13D8404900C572CE /* SecondViewController.m */,
+				03C5A3A213D8404900C572CE /* FirstViewController.xib */,
+				03C5A3A513D8404900C572CE /* SecondViewController.xib */,
+				03C5A38713D8404900C572CE /* Supporting Files */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		03C5A38713D8404900C572CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C5A38813D8404900C572CE /* Switch-Info.plist */,
+				03C5A38913D8404900C572CE /* InfoPlist.strings */,
+				03C5A38C13D8404900C572CE /* main.m */,
+				03C5A38E13D8404900C572CE /* Switch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C5A37B13D8404900C572CE /* Switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C5A3AA13D8404900C572CE /* Build configuration list for PBXNativeTarget "Switch" */;
+			buildPhases = (
+				03C5A37813D8404900C572CE /* Sources */,
+				03C5A37913D8404900C572CE /* Frameworks */,
+				03C5A37A13D8404900C572CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Switch;
+			productName = Switch;
+			productReference = 03C5A37C13D8404900C572CE /* Switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C5A37313D8404900C572CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03C5A37613D8404900C572CE /* Build configuration list for PBXProject "Switch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03C5A37113D8404900C572CE;
+			productRefGroup = 03C5A37D13D8404900C572CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C5A37B13D8404900C572CE /* Switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C5A37A13D8404900C572CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C5A38B13D8404900C572CE /* InfoPlist.strings in Resources */,
+				03C5A39313D8404900C572CE /* FirstViewController.h in Resources */,
+				03C5A39B13D8404900C572CE /* SecondViewController.h in Resources */,
+				03C5A3A413D8404900C572CE /* FirstViewController.xib in Resources */,
+				03C5A3A713D8404900C572CE /* SecondViewController.xib in Resources */,
+				03C5A3B013D8406300C572CE /* Default@2x.png in Resources */,
+				03C5A3B213D8406800C572CE /* Default.png in Resources */,
+				03C5A3B913D8420F00C572CE /* Install.png in Resources */,
+				03C5A3BA13D8420F00C572CE /* Switch.png in Resources */,
+				035F540F143AF24100ED7754 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C5A37813D8404900C572CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C5A38D13D8404900C572CE /* main.m in Sources */,
+				03C5A39113D8404900C572CE /* SwitchAppDelegate.m in Sources */,
+				03C5A39513D8404900C572CE /* FirstViewController.m in Sources */,
+				03C5A39D13D8404900C572CE /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C5A38913D8404900C572CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C5A38A13D8404900C572CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03C5A3A213D8404900C572CE /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C5A3A313D8404900C572CE /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		03C5A3A513D8404900C572CE /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C5A3A613D8404900C572CE /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C5A3A813D8404900C572CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03C5A3A913D8404900C572CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C5A3AB13D8404900C572CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switch/Switch-Prefix.pch";
+				INFOPLIST_FILE = "Switch/Switch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03C5A3AC13D8404900C572CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Switch/Switch-Prefix.pch";
+				INFOPLIST_FILE = "Switch/Switch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C5A37613D8404900C572CE /* Build configuration list for PBXProject "Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C5A3A813D8404900C572CE /* Debug */,
+				03C5A3A913D8404900C572CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C5A3AA13D8404900C572CE /* Build configuration list for PBXNativeTarget "Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C5A3AB13D8404900C572CE /* Debug */,
+				03C5A3AC13D8404900C572CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C5A37313D8404900C572CE /* Project object */;
+}
